@@ -1,0 +1,678 @@
+{
+ "1_single": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ]
+  }
+ ],
+ "2_chain200_refire": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 1.4
+  }
+ ],
+ "3_chain100_refire": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -300,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -300,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    -100,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -100,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    100,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 100,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    300,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 300,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -300,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -300,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    -100,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -100,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    100,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 100,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    300,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 300,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 0.35
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -300,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -300,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    -100,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -100,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    100,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 100,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    300,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 300,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 0.7
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -300,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -300,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    -100,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -100,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    100,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 100,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    300,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 300,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 1.05
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -400,
+   "up": 90,
+   "beam": [
+    -300,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -300,
+   "up": 90,
+   "beam": [
+    -200,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -200,
+   "up": 90,
+   "beam": [
+    -100,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": -100,
+   "up": 90,
+   "beam": [
+    0,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 0,
+   "up": 90,
+   "beam": [
+    100,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 100,
+   "up": 90,
+   "beam": [
+    200,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 200,
+   "up": 90,
+   "beam": [
+    300,
+    0,
+    90
+   ],
+   "delay": 1.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Ultimate/FX/P_Gideon_BlackHole_Beam",
+   "right": 300,
+   "up": 90,
+   "beam": [
+    400,
+    0,
+    90
+   ],
+   "delay": 1.4
+  }
+ ]
+}

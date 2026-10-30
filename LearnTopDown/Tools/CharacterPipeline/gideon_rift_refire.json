@@ -1,0 +1,67 @@
+{
+ "1_once": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180
+  }
+ ],
+ "2_refire_0.3": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180,
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180,
+   "delay": 0.3
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180,
+   "delay": 0.6
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180,
+   "delay": 0.9
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180,
+   "delay": 1.2
+  }
+ ],
+ "3_refire_0.4": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180,
+   "delay": 0
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180,
+   "delay": 0.4
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180,
+   "delay": 0.8
+  },
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180,
+   "delay": 1.2
+  }
+ ]
+}

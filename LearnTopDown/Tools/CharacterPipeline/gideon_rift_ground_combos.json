@@ -1,0 +1,7 @@
+{
+  "1_ground_asis": [{"path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal", "up": 5}],
+  "2_ground_flip": [{"path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal", "up": 5, "roll": 180}],
+  "3_ground_both": [{"path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal", "up": 5}, {"path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal", "up": 6, "roll": 180}],
+  "4_fast_flip": [{"path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal_Fast", "up": 5, "roll": 180}],
+  "5_flip_shower": [{"path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal", "up": 5, "roll": 180}, {"path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Shower"}]
+}

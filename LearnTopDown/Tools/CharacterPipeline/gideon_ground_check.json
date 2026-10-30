@@ -1,0 +1,62 @@
+{
+ "01_e_entrance_ground": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Portal/FX/P_Portal_Entrance"
+  }
+ ],
+ "02_e_entrance_up100": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Portal/FX/P_Portal_Entrance",
+   "up": 100
+  }
+ ],
+ "03_e_exit_ground": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Portal/FX/P_Portal_Exit"
+  }
+ ],
+ "04_e_exit_up100": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Portal/FX/P_Portal_Exit",
+   "up": 100
+  }
+ ],
+ "05_w_portal_flip": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal",
+   "up": 5,
+   "roll": 180
+  }
+ ],
+ "06_w_dumptruck_flip": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Meteor/FX/P_Gideon_Meteor_Portal_DumpTruck",
+   "up": 5,
+   "roll": 180
+  }
+ ],
+ "07_rmb_targeting": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/ProjectileMeteor/FX/P_Gideon_RMB_Targeting",
+   "up": 5
+  }
+ ],
+ "08_burden_aiming": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Burden/FX/P_Gideon_Burden_Aiming",
+   "up": 5
+  }
+ ],
+ "09_ringlight": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Portal/FX/P_Gideon_RingLight",
+   "up": 5
+  }
+ ],
+ "10_ring_dissolve": [
+  {
+   "path": "/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Portal/FX/P_Ring_Dissolve",
+   "up": 5
+  }
+ ]
+}
