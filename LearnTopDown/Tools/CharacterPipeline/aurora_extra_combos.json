@@ -1,0 +1,47 @@
+{
+  "1_prison": [
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Sculpture_Block", "scale": 1.2},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Freeze/FX/P_Aurora_Freeze_Whrilwind"},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Freeze/FX/P_Aurora_Freeze_Rooted", "up": 90},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_SnowMinion_Kicked", "up": 90, "delay": 1.7},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Leap/FX/P_Aurora_Decoy_Explode_Fragments", "up": 90, "delay": 1.7}
+  ],
+  "2_icicle_ring": [
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_SwordPlant"},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Ultimate/FX/P_Aurora_Ultimate_InitialBlast", "delay": 0.15},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": 300, "yaw": 135, "delay": 0.2},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": 150, "ahead": 260, "yaw": 75, "delay": 0.2},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": -150, "ahead": 260, "yaw": 15, "delay": 0.2},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": -300, "yaw": -45, "delay": 0.2},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": -150, "ahead": -260, "yaw": -105, "delay": 0.2},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": 150, "ahead": -260, "yaw": 195, "delay": 0.2}
+  ],
+  "3_spike_line_freeze": [
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Freeze/FX/P_Aurora_Freeze_Segment", "right": -375, "yaw": 135},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Freeze/FX/P_Aurora_Freeze_Segment", "right": -225, "yaw": 135, "delay": 0.06},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Freeze/FX/P_Aurora_Freeze_Segment", "right": -75, "yaw": 135, "delay": 0.12},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Freeze/FX/P_Aurora_Freeze_Segment", "right": 75, "yaw": 135, "delay": 0.18},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Freeze/FX/P_Aurora_Freeze_Segment", "right": 225, "yaw": 135, "delay": 0.24},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Freeze/FX/P_Aurora_Freeze_Segment", "right": 375, "yaw": 135, "delay": 0.30},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_SnowMinion_Kicked", "right": 450, "up": 60, "delay": 0.36}
+  ],
+  "4_icicle_line": [
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": -360, "yaw": 135},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": -180, "yaw": 135, "delay": 0.08},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": 0, "yaw": 135, "delay": 0.16},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": 180, "yaw": 135, "delay": 0.24},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Recall_Icicle_Walls", "right": 360, "yaw": 135, "delay": 0.32},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_Sculpture_Thrust", "right": 0, "up": 40, "delay": 0.2}
+  ],
+  "5_frost_field": [
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Ultimate/FX/P_Aurora_Frozen_Ground_Water_Ultimate", "scale": 1.2},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Freeze/FX/P_Aurora_Freeze_Whrilwind", "scale": 1.6},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_JumpPad_Swirl", "scale": 2.5},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Ultimate/FX/P_Aurora_Ultimate_Warmup", "scale": 1.5}
+  ],
+  "6_lance_impact": [
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Dash/FX/P_Aurora_Dash_Flare", "right": -250, "yaw": 135},
+    {"path": "/Game/ParagonAurora/FX/Particles/Abilities/Ultimate/FX/P_Aurora_Ultimate_Explode", "right": 200, "up": 60, "delay": 0.25},
+    {"path": "/Game/ParagonAurora/FX/Particles/Aurora/P_Aurora_SnowMinion_Kicked", "right": 200, "up": 60, "delay": 0.25}
+  ]
+}
