@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "presentation_contract": {
+    "mode": "approved_project_baseline",
+    "original_game_behavior": "unverified",
+    "states": {
+      "idle": {
+        "references": [
+          "/Game/ParagonCountess/Characters/Heroes/Countess/Animations/Idle_Relaxed"
+        ],
+        "reason": "Preserve the existing user-approved idle and neck adjustment."
+      },
+      "movement": {
+        "references": [
+          "/Game/ParagonCountess/Characters/Heroes/Countess/Animations/Blendspaces/JogFwdSlopeLean"
+        ],
+        "reason": "Preserve the approved top-down movement baseline."
+      },
+      "attack": {
+        "references": [
+          "/Game/TopDown/Characters/Countess/Animations/ABP_Countess_TopDown"
+        ],
+        "reason": "Preserve the tested Countess attack montage/slot behavior."
+      },
+      "skills": {
+        "references": [
+          "/Script/LearnTopDown.CountessSkillComponent"
+        ],
+        "reason": "Restored initial Feast playback: source 0s at 1x; preparation 0.95s then swept ground approach 0.5s; original airborne pose supplies jump height; stun 1.05s, impact 1.8s and recovery 2.25s. Current floor and collision guards retained. Q/W/E unchanged."
+      },
+      "recovery": {
+        "references": [
+          "/Game/TopDown/Characters/Countess/Animations/ABP_Countess_TopDown"
+        ],
+        "reason": "Preserve the existing approved post-action movement and stop behavior."
+      }
+    },
+    "quality_gate": {
+      "expected_cloth_count": [
+        1,
+        2,
+        3
+      ],
+      "cloth_limits": {
+        "max_above_head_cm": 35,
+        "p95_above_head_cm": 26,
+        "max_radius_cm": 90
+      },
+      "forbidden_effects": [],
+      "minimum_seconds": {
+        "locomotion": 3.0,
+        "primary": 1.0,
+        "skill_Q": 4.5,
+        "skill_W": 2.2,
+        "skill_E": 3.0,
+        "skill_R": 3.5
+      },
+      "reason": "Reject cloth instability, active placeholder render materials, unintended camera surfaces and unobserved skill phases; keep simulation enabled and inspect all 30/60 FPS timelines. The user-requested 1.5x Feast variant is visually reviewed: hair p95 reaches 25.2124 cm with peak 26.9590 cm and radius 66.2868 cm. Allow 26 cm hair p95 while retaining the 35 cm peak and 90 cm radius limits; no simulation suspension or raw-report reclassification."
+    }
+  },
+  "character_id": "countess",
+  "character_blueprint": "/Game/TopDown/Blueprints/BP_CountessCharacter",
+  "map": "/Game/TopDown/Lvl_TopDown",
+  "behavior_class": "/Script/LearnTopDown.CountessSkillComponent",
+  "quality": "detailed",
+  "audio": "disabled",
+  "required_content_roots": [
+    "ParagonCountess",
+    "TopDown"
+  ],
+  "console_variables": {
+    "Countess.Skills.Audio": 0,
+    "Countess.Skills.Voice": 0,
+    "Countess.Skills.DetailedFX": 1,
+    "Countess.Skills.IgnoreCooldowns": 1
+  },
+  "expected": {
+    "movement": {
+      "max_walk_speed": 600.0,
+      "max_acceleration": 5000.0,
+      "braking_deceleration_walking": 6000.0
+    },
+    "rotation_rate": 720.0,
+    "combo_restart_cooldown": 0.3,
+    "attack_rates": [
+      1.25,
+      1.25,
+      1.0
+    ],
+    "mesh": "/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess",
+    "anim_class": "/Game/TopDown/Characters/Countess/Animations/ABP_Countess_TopDown.ABP_Countess_TopDown_C"
+  },
+  "skills": [
+    {
+      "key": "Q",
+      "display_name": "Shadow Slip",
+      "targeting": "actor",
+      "return_seconds": 3.0
+    },
+    {
+      "key": "W",
+      "display_name": "Blade Siphon",
+      "targeting": "self"
+    },
+    {
+      "key": "E",
+      "display_name": "Dark Tide",
+      "targeting": "direction"
+    },
+    {
+      "key": "R",
+      "display_name": "Feast",
+      "targeting": "actor",
+      "play_rate": 1.0,
+      "animation_start_time": 0.0,
+      "target_arrival_seconds": 1.45,
+      "hit_seconds": 1.8,
+      "recovery_seconds": 2.25,
+      "preparation_seconds": 0.95,
+      "approach_seconds": 0.5
+    }
+  ],
+  "suites": [
+    "inspect_character",
+    "countess_skills",
+    "countess_combo",
+    "countess_input",
+    "countess_movement",
+    "character_visual_quality"
+  ],
+  "scope": "Local client demonstration. Network authority, passives, healing and finished UI are separate work.",
+  "basic_attack": [
+    {
+      "name": "Primary_Attack_Normal",
+      "play_rate": 1.25,
+      "duration": 0.7199866771697998,
+      "hit_time": 0.2519953327179749,
+      "hit_fraction": 0.3499999940395355,
+      "advance_time": 0.5283080101013183,
+      "reset_time": 0.6901023387908936,
+      "sequence_root_motion": false,
+      "montage": "/Game/ParagonCountess/Characters/Heroes/Countess/Animations/Primary_Attack_Normal_Montage.Primary_Attack_Normal_Montage"
+    },
+    {
+      "name": "Primary_Attack_A_Normal",
+      "play_rate": 1.25,
+      "duration": 0.7199866771697998,
+      "hit_time": 0.2519953327179749,
+      "hit_fraction": 0.3499999940395355,
+      "advance_time": 0.49859070777893066,
+      "reset_time": 0.6108561515808105,
+      "sequence_root_motion": false,
+      "montage": "/Game/ParagonCountess/Characters/Heroes/Countess/Animations/Primary_Attack_A_Normal_Montage.Primary_Attack_A_Normal_Montage"
+    },
+    {
+      "name": "Primary_Attack_B_Normal",
+      "play_rate": 1.0,
+      "duration": 0.8999833464622498,
+      "hit_time": 0.31499416589746865,
+      "hit_fraction": 0.3499999940395355,
+      "advance_time": 0.5365628600120544,
+      "reset_time": 0.7181687355041504,
+      "sequence_root_motion": false,
+      "montage": "/Game/ParagonCountess/Characters/Heroes/Countess/Animations/Primary_Attack_B_Normal_Montage.Primary_Attack_B_Normal_Montage"
+    }
+  ],
+  "parent_class": "/Script/LearnTopDown.KwangCharacter",
+  "skill_defaults": [
+    {
+      "name": "ShadowSlip",
+      "animation": "/Game/ParagonCountess/Characters/Heroes/Countess/Animations/Ability_Q.Ability_Q",
+      "damage": 35.0,
+      "cooldown": 8.0,
+      "range": 850.0,
+      "action_time": 0.20000000298023224,
+      "recovery_time": 0.6499999761581421
+    },
+    {
+      "name": "BladeSiphon",
+      "animation": "/Game/ParagonCountess/Characters/Heroes/Countess/Animations/Ability_RMB.Ability_RMB",
+      "damage": 40.0,
+      "cooldown": 6.0,
+      "range": 240.0,
+      "action_time": 0.550000011920929,
+      "recovery_time": 0.949999988079071
+    },
+    {
+      "name": "DarkTide",
+      "animation": "/Game/ParagonCountess/Characters/Heroes/Countess/Animations/Ability_E.Ability_E",
+      "damage": 45.0,
+      "cooldown": 8.0,
+      "range": 900.0,
+      "action_time": 0.36,
+      "recovery_time": 0.8
+    },
+    {
+      "name": "Feast",
+      "animation": "/Game/ParagonCountess/Characters/Heroes/Countess/Animations/Ability_Ultimate.Ability_Ultimate",
+      "damage": 80.0,
+      "cooldown": 20.0,
+      "range": 500.0,
+      "action_time": 1.7999999523162842,
+      "recovery_time": 2.25
+    }
+  ],
+  "training_room_E_prototype": {
+    "map": "/Game/TopDown/TrainingRoom/Maps/Lvl_DarkTrainingRoom",
+    "enabled_at_pawn_spawn": true,
+    "cvar": "Countess.Skills.EFlurry",
+    "name": "Rending Flurry",
+    "targeting": "actor",
+    "range_cm": 210,
+    "strikes": 6,
+    "base_damage_per_strike": 7.5,
+    "interval_seconds": 0.14666666666666667,
+    "duration_seconds": 1.1666666666666665,
+    "sequence_order": [
+      "Primary_Attack_Fast_V1",
+      "Primary_Attack_Fast_V1",
+      "Primary_Attack_A_Fast_V1",
+      "Primary_Attack_A_Fast_V1",
+      "Primary_Attack_B_Fast_InMotion",
+      "Primary_Attack_B_Fast_InMotion"
+    ],
+    "source_clips_forward_only": true,
+    "original_Dark_Tide_preserved_outside_room": true,
+    "body_strikes": 3,
+    "shadow_strikes": 3,
+    "performer_clip_seconds": 0.29333333333333333,
+    "performers": [
+      "body",
+      "shadow",
+      "body",
+      "shadow",
+      "body",
+      "shadow"
+    ],
+    "shadow_placement": "beyond_target_opposite_caster_facing_inward",
+    "shadow_blocked_policy": "reject_without_damage",
+    "presentation": {
+      "weapon_trail_width_multiplier": 0.75,
+      "blade_smoke_scale": 1.25,
+      "crosscut_source": "p_Countess_XSlash",
+      "crosscut_scale": [
+        0.32,
+        0.45
+      ],
+      "contact_scale": [
+        0.65,
+        0.85
+      ],
+      "original_textures_and_materials": true,
+      "gameplay_timing_and_damage_unchanged": true,
+      "shadow_material": "/Game/TopDown/Characters/Countess/Materials/M_CountessEShadowDissolve",
+      "shadow_dissolve_seconds": 0.45,
+      "shadow_retire_lifetime_seconds": 0.5,
+      "original_Q_shadow_material_unchanged": true,
+      "large_hot_flare_reduced": true,
+      "shadow_fragment_drift_scale_cm": 8,
+      "shadow_darkens_during_dissolve": true,
+      "weapon_trail_material": "/Game/TopDown/Characters/Countess/Materials/M_CountessESharpBladeTrail",
+      "trail_palette": "Q muted blood red / dark interior",
+      "trail_noise": "Countess T_TilingNoise12",
+      "trail_newest_fraction": 0.85,
+      "trail_brightness_multiplier": 0.5,
+      "trail_uses_real_sword_sockets": true,
+      "weapon_trail_particle": "/Game/TopDown/Characters/Countess/FX/P_CountessESharpTrail",
+      "trail_history_seconds": 0.085,
+      "trail_texture_flow": false,
+      "trail_tangent_recalculation": false,
+      "trail_tessellation": false,
+      "blade_smoke_enabled": false,
+      "weapon_trails_enabled": false,
+      "target_cuts_enabled": true,
+      "target_cut_material": "/Game/TopDown/Characters/Countess/Materials/M_CountessETargetCut",
+      "target_cut_shape": "straight red slash with thin white center",
+      "target_cut_lines_per_hit": 2,
+      "target_cut_secondary_delay_seconds": 0.026,
+      "target_cut_duration_seconds": 0.11,
+      "target_cut_actor_lifetime_seconds": 0.18,
+      "target_cut_length_cm": [
+        170,
+        200
+      ],
+      "target_cut_plane_width_cm": [
+        50,
+        60
+      ],
+      "target_cuts_attached_to_victim": true,
+      "old_curved_crosscut_enabled": false,
+      "old_contact_particles_enabled": false
+    }
+  }
+}
