@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "character_id": "new_character",
+  "character_blueprint": "/Game/TopDown/Characters/NewCharacter/BP_NewCharacter",
+  "parent_class": "/Script/LearnTopDown.TopDownCombatCharacter",
+  "behavior_class": "/Script/LearnTopDown.CharacterSkillComponent",
+  "map": "/Game/TopDown/Lvl_TopDown",
+  "quality": "rough",
+  "audio": "disabled",
+  "required_content_roots": [
+    "TopDown"
+  ],
+  "console_variables": {},
+  "expected": {
+    "movement": {
+      "max_walk_speed": 600.0,
+      "max_acceleration": 5000.0,
+      "braking_deceleration_walking": 6000.0
+    },
+    "rotation_rate": 720.0,
+    "combo_restart_cooldown": 0.3,
+    "attack_rates": [],
+    "mesh": "",
+    "anim_class": ""
+  },
+  "basic_attack": [],
+  "skills": [],
+  "presentation_contract": {
+    "mode": "user_requested_variant",
+    "original_game_behavior": "unverified",
+    "states": {
+      "idle": {
+        "references": [],
+        "reason": ""
+      },
+      "movement": {
+        "references": [],
+        "reason": ""
+      },
+      "attack": {
+        "references": [],
+        "reason": ""
+      },
+      "skills": {
+        "references": [],
+        "reason": ""
+      },
+      "recovery": {
+        "references": [],
+        "reason": ""
+      }
+    },
+    "quality_gate": {
+      "expected_cloth_count": [],
+      "cloth_limits": {},
+      "forbidden_effects": [],
+      "minimum_seconds": {},
+      "reason": "Fill measured cloth/geometry limits and full Q/W/E/R durations; add a character-specific temporal suite adapter before approval."
+    }
+  },
+  "suites": [
+    "inspect_character"
+  ],
+  "scope": "Fill actual asset paths and configure camera, mesh offsets, locomotion graph and montage slots before play validation. Add a native skill handler and its regression suite for unique abilities. Configure temporal visual quality requirements and a matching original-field suite before completion review."
+}
