@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "character_id": "sparrow",
+  "character_blueprint": "/Game/TopDown/Characters/Sparrow/BP_SparrowCharacter",
+  "parent_class": "/Script/LearnTopDown.SparrowCharacter",
+  "behavior_class": "/Script/LearnTopDown.SparrowSkillComponent",
+  "map": "/Game/TopDown/Maps/Lvl_Sparrow",
+  "quality": "detailed",
+  "audio": "disabled",
+  "required_content_roots": [
+    "ParagonSparrow",
+    "TopDown"
+  ],
+  "console_variables": {
+    "Sparrow.Skills.IgnoreCooldowns": 1,
+    "Countess.Skills.Audio": 0,
+    "Countess.Skills.Voice": 0
+  },
+  "expected": {
+    "movement": {
+      "max_walk_speed": 600.0,
+      "max_acceleration": 5000.0,
+      "braking_deceleration_walking": 6000.0
+    },
+    "rotation_rate": 720.0,
+    "combo_restart_cooldown": 0.3,
+    "attack_rates": [
+      1.0
+    ],
+    "mesh": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Skins/Rogue/Meshes/Sparrow_Rogue.Sparrow_Rogue",
+    "anim_class": "/Game/TopDown/Characters/Sparrow/Animations/ABP_Sparrow_SmoothStop.ABP_Sparrow_SmoothStop_C",
+    "camera": {
+      "spring_arm": {
+        "target_arm_length": 2000.0,
+        "relative_rotation": [
+          -50.0,
+          45.0,
+          0.0
+        ],
+        "enable_camera_lag": true,
+        "camera_lag_speed": 3.0
+      },
+      "camera_component": {
+        "field_of_view": 55.0,
+        "ortho_width": 512.0,
+        "ortho_near_clip_plane": 0.0,
+        "auto_calculate_ortho_planes": false
+      }
+    },
+    "runtime_anim_class": "/Game/TopDown/Characters/Sparrow/Animations/ABP_Sparrow_HeldAim.ABP_Sparrow_HeldAim_C",
+    "runtime_attack_speed_multiplier": 1.2
+  },
+  "basic_attack": [
+    {
+      "name": "Primary_Fire_Med",
+      "play_rate": 1.0,
+      "duration": 1.0,
+      "hit_time": 0.05,
+      "hit_fraction": 0.05,
+      "advance_time": 0.8121066689491272,
+      "reset_time": 0.9297272562980652,
+      "sequence_root_motion": false,
+      "montage": "/Game/TopDown/Characters/Sparrow/Animations/AM_Sparrow_Primary.AM_Sparrow_Primary"
+    }
+  ],
+  "skills": [
+    {
+      "key": "Q",
+      "display_name": "Hail of Arrows",
+      "targeting": "direction",
+      "visual_density_multiplier": 1.8,
+      "indicator_radius_cm": 300,
+      "indicator_seconds": 4
+    },
+    {
+      "key": "W",
+      "display_name": "Piercing Shot",
+      "targeting": "direction",
+      "charge_seconds": 0.5,
+      "presentation_feedback": {
+        "ring_count": 3,
+        "crossing_wind_sheets": 2,
+        "wind_length_cm": 580,
+        "bow_flash": true
+      }
+    },
+    {
+      "key": "E",
+      "display_name": "Rapid Shot",
+      "targeting": "direction",
+      "passive": false,
+      "shot_count": 6,
+      "shot_interval_seconds": 0.16,
+      "presentation_feedback": {
+        "bow_ring_count": 1,
+        "pulse_on_each_shot": true
+      }
+    },
+    {
+      "key": "R",
+      "display_name": "Inner Fire",
+      "targeting": "self",
+      "duration_seconds": 10.0,
+      "attack_animation_speed_multiplier": 1.5,
+      "arrow_count": 5,
+      "fan_degrees": 48.0,
+      "presentation_feedback": {
+        "body_burst": false,
+        "forward_fan_length_cm": 700,
+        "textured_ray_count": 5
+      }
+    }
+  ],
+  "skill_defaults": [
+    {
+      "name": "HailOfArrows",
+      "animation": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Q_Ability.Q_Ability",
+      "damage": 40.0,
+      "cooldown": 8.0,
+      "range": 1400.0,
+      "action_time": 0.24,
+      "recovery_time": 1.6,
+      "cast_effect": "/Game/ParagonSparrow/FX/Particles/Sparrow/Abilities/RainOfArrows/FX/P_RainArrowsTarget.P_RainArrowsTarget",
+      "impact_effect": "/Game/ParagonSparrow/FX/Particles/Sparrow/Abilities/RainOfArrows/FX/P_RainofArrows.P_RainofArrows",
+      "cast_sound": ""
+    },
+    {
+      "name": "PiercingShot",
+      "animation": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/RMB_Drawback.RMB_Drawback",
+      "damage": 35.0,
+      "cooldown": 6.0,
+      "range": 2500.0,
+      "action_time": 0.62,
+      "recovery_time": 2.25,
+      "cast_effect": "/Game/ParagonSparrow/FX/Particles/Sparrow/Abilities/DrawABead/FX/P_Sparrow_RMB.P_Sparrow_RMB",
+      "impact_effect": "/Game/ParagonSparrow/FX/Particles/Sparrow/Abilities/Ultimate/FX/P_Sparrow_UltHit.P_Sparrow_UltHit",
+      "cast_sound": ""
+    },
+    {
+      "name": "RapidShot",
+      "animation": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Primary_Fire_Fast.Primary_Fire_Fast",
+      "damage": 60.0,
+      "cooldown": 8.0,
+      "range": 1800.0,
+      "action_time": 0.12,
+      "recovery_time": 1.2,
+      "cast_effect": "",
+      "impact_effect": "",
+      "cast_sound": ""
+    },
+    {
+      "name": "InnerFire",
+      "animation": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/R_Ability_Med_Fire.R_Ability_Med_Fire",
+      "damage": 20.0,
+      "cooldown": 20.0,
+      "range": 1800.0,
+      "action_time": 0.12,
+      "recovery_time": 0.9,
+      "cast_effect": "/Game/ParagonSparrow/FX/Particles/Sparrow/Abilities/Ultimate/FX/P_SparrowBuff.P_SparrowBuff",
+      "impact_effect": "/Game/ParagonSparrow/FX/Particles/Sparrow/Abilities/Ultimate/FX/P_Sparrow_UltHit.P_Sparrow_UltHit",
+      "cast_sound": ""
+    }
+  ],
+  "presentation_contract": {
+    "mode": "user_requested_variant",
+    "original_game_behavior": "unverified",
+    "states": {
+      "idle": {
+        "references": [
+          "/Game/TopDown/Characters/Sparrow/Animations/A_Sparrow_TravelIdle",
+          "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Travel_Mode_Idle_BowDown"
+        ],
+        "reason": "The measured full BowDown travel-idle loop retains a lowered draw hand and reduces the pelvis/head offset from Sprint movement."
+      },
+      "movement": {
+        "references": [
+          "/Game/TopDown/Characters/Sparrow/Animations/BS_Sparrow_RelaxedMove",
+          "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Blendspaces/SprintFwdSlopeLean"
+        ],
+        "reason": "Authored Sprint sample poses lower the bow during ordinary movement; existing Speed/600 gait scaling is retained."
+      },
+      "attack": {
+        "references": [
+          "/Game/TopDown/Characters/Sparrow/Animations/AM_Sparrow_Primary",
+          "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/idle",
+          "/Game/TopDown/Characters/Sparrow/Animations/AM_Sparrow_PrimaryNatural",
+          "/Game/TopDown/Characters/Sparrow/Animations/ABP_Sparrow_BasicNatural"
+        ],
+        "reason": "Regular basic attack uses a short draw and upper-body slot over the preserved relaxed lower body; R attacks retain the original full-body montage and release time."
+      },
+      "skills": {
+        "references": [
+          "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Q_Ability",
+          "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/RMB_Drawback",
+          "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/R_Ability_Med_Fire"
+        ],
+        "reason": "Q/W/R keep their existing full-body actions and default Sparrow FX; E remains passive. R buff retains armed locomotion."
+      },
+      "recovery": {
+        "references": [
+          "/Script/LearnTopDown.SparrowCharacter.ShouldUseCombatLocomotion",
+          "/Game/TopDown/Characters/Sparrow/Animations/ABP_Sparrow_SmoothStop"
+        ],
+        "reason": "Keep the existing 0.2 second combat-pose recovery; smooth-stop copy uses 0.08/0.18 second locomotion transitions and its dedicated travel idle."
+      }
+    },
+    "pose_variant": {
+      "idle_segment": {
+        "start_frame": 183,
+        "end_frame": 336
+      },
+      "owned_assets": [
+        "A_Sparrow_RelaxedIdle",
+        "A_Sparrow_Move_Sprint_Fwd",
+        "A_Sparrow_Move_Sprint_Fwd_CircleLeft",
+        "A_Sparrow_Move_Sprint_Fwd_CircleRight",
+        "A_Sparrow_Move_Sprint_Fwd_Downhill",
+        "A_Sparrow_Move_Sprint_Fwd_Uphill",
+        "BS_Sparrow_RelaxedMove",
+        "ABP_Sparrow_TopDown"
+      ],
+      "source_hashes": {
+        "Content/ParagonSparrow/Characters/Heroes/Sparrow/Animations/idle_relaxed.uasset": "d1bb087a332e7956e878e1ad7ede08847de0769501042e1fef3668757bc8d8c2",
+        "Content/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Blendspaces/SprintFwdSlopeLean.uasset": "c5fbb1a534451a2ade74392a6d0b8cc6f774213f9f17ff2219f32cad885fa572",
+        "Content/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Sprint_Fwd.uasset": "54d07d9590ce5230d2b7ccab81368db5da3346cbef147a74396abe5a671cf017",
+        "Content/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Sprint_Fwd_CircleLeft.uasset": "e8407516ecb0d80dc46db590c1a1aa36c51ba7d006472e977eab726ed153e0c2",
+        "Content/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Sprint_Fwd_CircleRight.uasset": "c78029ec23dc008914c2640734cb6e0c1a332557fd6b868a0e2b0a69f8b06d3d",
+        "Content/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Sprint_Fwd_Downhill.uasset": "0c9446cc48994a565e32794b47eb19f12b2aa97792b1ee526802b990a95c08ea",
+        "Content/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Sprint_Fwd_Uphill.uasset": "8b2d6fd18a29d415d1b4ef4aa3f73299cea1cfa4db20a638b61a180382485102"
+      }
+    },
+    "smooth_stop_variant": {
+      "animation_blueprint": "/Game/TopDown/Characters/Sparrow/Animations/ABP_Sparrow_SmoothStop",
+      "idle_source": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/Travel_Mode_Idle_BowDown",
+      "idle_sequence": "/Game/TopDown/Characters/Sparrow/Animations/A_Sparrow_TravelIdle",
+      "idle_to_run_seconds": 0.08,
+      "run_to_idle_seconds": 0.18,
+      "transition_curve": "HermiteCubic",
+      "owned_assets": [
+        "ABP_Sparrow_SmoothStop",
+        "A_Sparrow_TravelIdle"
+      ],
+      "legacy_pose_installer_contract": "pose_variant remains the original relaxed-pose installation and is preserved; smooth-stop is a separate presentation copy."
+    },
+    "quality_gate": {
+      "expected_cloth_count": [
+        1
+      ],
+      "cloth_limits": {
+        "max_above_head_cm": 30,
+        "p95_above_head_cm": 10,
+        "max_radius_cm": 130
+      },
+      "forbidden_effects": [
+        "/DrawABead/FX/P_ReleaseArrow"
+      ],
+      "minimum_seconds": {
+        "locomotion": 3.0,
+        "primary": 1.0,
+        "skill_Q": 5.0,
+        "skill_W": 2.2,
+        "skill_E": 1.5,
+        "skill_R": 5.5
+      },
+      "reason": "Reject cloth instability, active placeholder render materials, unintended camera surfaces and unobserved skill phases; keep simulation enabled and inspect all 30/60 FPS timelines."
+    },
+    "basic_attack_variant": {
+      "animation_blueprint": "/Game/TopDown/Characters/Sparrow/Animations/ABP_Sparrow_BasicNatural",
+      "montage": "/Game/TopDown/Characters/Sparrow/Animations/AM_Sparrow_PrimaryNatural",
+      "slot": "SparrowUpperBody",
+      "branch_bone": "spine_01",
+      "duration": 1.0,
+      "draw_seconds": 0.2,
+      "release_seconds": 0.25,
+      "original_release_seconds": 0.05,
+      "R_release_changed": false,
+      "owned_assets": [
+        "ABP_Sparrow_BasicNatural",
+        "AM_Sparrow_PrimaryNatural"
+      ],
+      "runtime_attack_speed_multiplier": 1.2
+    }
+  },
+  "suites": [
+    "inspect_character",
+    "character_switch",
+    "sparrow_startup",
+    "sparrow_movement",
+    "sparrow_combat",
+    "sparrow_skills",
+    "sparrow_presentation",
+    "sparrow_field_presentation",
+    "sparrow_pose",
+    "character_visual_quality"
+  ],
+  "scope": "Local field demonstration with Rogue appearance and default Sparrow skill FX. Q/W/E/R active; Relentless passive retained. Q visual arrow density 1.8x and golden 300cm/4s indicator; W charges for 0.5s; E fires six non-piercing arrows at 0.16s intervals. Network authority, packaged runtime, balance and mass-FX performance are separate work."
+}
