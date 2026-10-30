@@ -1,0 +1,19 @@
+{
+  "creator": "Quaternius",
+  "pack": "Universal Animation Library 1 / Standard",
+  "official_source": "https://quaternius.itch.io/universal-animation-library",
+  "official_upload_id": "17958403",
+  "downloaded_on": "2026-10-23",
+  "license": "CC0 1.0 Universal",
+  "license_file": "License.txt",
+  "retained_source": "Quaternius_Roll.glb",
+  "sha256": "928dba6cf8ffff6d33e1088ea7e6b71c4b9f39d4c16e3006f6a4672ebcc9f1a9",
+  "original_glb_bytes": 7618436,
+  "retained_glb_bytes": 777700,
+  "retained_animations": ["Roll"],
+  "original_mesh_and_skeleton_preserved": true,
+  "original_animation_channels_and_samples_preserved": true,
+  "other_animation_json_and_unused_buffers_removed": true,
+  "archive_and_full_library_temporary_copies_deleted": true,
+  "derivation_tool": "Tools/CharacterPipeline/quaternius_roll_import.py / prepare"
+}

@@ -1,0 +1,152 @@
+{
+  "meshes": [
+    "Mannequin"
+  ],
+  "skins": [
+    "Armature"
+  ],
+  "animations": [
+    "A_TPose",
+    "Crouch_Fwd_Loop",
+    "Crouch_Idle_Loop",
+    "Dance_Loop",
+    "Death01",
+    "Driving_Loop",
+    "Fixing_Kneeling",
+    "Hit_Chest",
+    "Hit_Head",
+    "Idle_Loop",
+    "Idle_Talking_Loop",
+    "Idle_Torch_Loop",
+    "Interact",
+    "Jog_Fwd_Loop",
+    "Jump_Land",
+    "Jump_Loop",
+    "Jump_Start",
+    "PickUp_Table",
+    "Pistol_Aim_Down",
+    "Pistol_Aim_Neutral",
+    "Pistol_Aim_Up",
+    "Pistol_Idle_Loop",
+    "Pistol_Reload",
+    "Pistol_Shoot",
+    "Punch_Cross",
+    "Punch_Jab",
+    "Push_Loop",
+    "Roll",
+    "Sitting_Enter",
+    "Sitting_Exit",
+    "Sitting_Idle_Loop",
+    "Sitting_Talking_Loop",
+    "Spell_Simple_Enter",
+    "Spell_Simple_Exit",
+    "Spell_Simple_Idle_Loop",
+    "Spell_Simple_Shoot",
+    "Sprint_Loop",
+    "Swim_Fwd_Loop",
+    "Swim_Idle_Loop",
+    "Sword_Attack",
+    "Sword_Idle",
+    "Walk_Formal_Loop",
+    "Walk_Loop"
+  ],
+  "roll": [
+    {
+      "name": "Roll",
+      "samplers": 195,
+      "channels": 195,
+      "time_bounds": [
+        [
+          1.4666666666666666
+        ]
+      ]
+    }
+  ],
+  "first_nodes": [
+    {
+      "name": "Head",
+      "translation": [
+        0,
+        0.08258678019046783,
+        -1.3969838619232178e-09
+      ],
+      "rotation": [
+        -0.07867422699928284,
+        0,
+        0,
+        0.9969003796577454
+      ],
+      "scale": [
+        1,
+        0.9999999403953552,
+        0.9999999403953552
+      ]
+    },
+    {
+      "name": "neck_01",
+      "translation": [
+        0,
+        0.1728907823562622,
+        -1.862645149230957e-09
+      ],
+      "rotation": [
+        0.11098591238260269,
+        0,
+        0,
+        0.9938219785690308
+      ],
+      "scale": [
+        1,
+        0.9999999403953552,
+        0.9999999403953552
+      ]
+    },
+    {
+      "name": "index_04_leaf_l",
+      "translation": [
+        4.697540134657174e-09,
+        0.030100105330348015,
+        1.0693611329770647e-08
+      ],
+      "rotation": [
+        4.1180931362579326e-16,
+        1,
+        1.4787951179418804e-17,
+        3.6517765238386346e-06
+      ]
+    },
+    {
+      "name": "index_03_l",
+      "translation": [
+        9.722498361952603e-10,
+        0.034800052642822266,
+        1.0693611329770647e-08
+      ],
+      "rotation": [
+        7.348758588704803e-18,
+        1.1368683772161603e-13,
+        -1.327914859583146e-16,
+        1
+      ],
+      "scale": [
+        1,
+        0.9999999403953552,
+        1
+      ]
+    },
+    {
+      "name": "index_02_l",
+      "translation": [
+        -5.128198976578346e-10,
+        0.04070001840591431,
+        1.136087224296034e-08
+      ],
+      "rotation": [
+        -4.4818607104670644e-14,
+        -9.671452971815597e-09,
+        -2.7004171121447484e-10,
+        1
+      ]
+    }
+  ]
+}
